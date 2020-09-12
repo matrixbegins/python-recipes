@@ -12,7 +12,7 @@ Lambda downloads the Object received in the bucket. Then the image is opened and
 - Create a bucket, e.g. source
 - Go to S3 bucket source > Properties
 - Under Advance Settings find Events:
-![S3 Event Setings](/image-resize/img-resize-lambda/images/s3-event-create.png)
+![S3 Event Setings](/image-resize/img-resize-lambda/images/s3-event-create-2.png)
 
 - Click on Add notification
 ![S3 event add notification](/image-resize/img-resize-lambda/images/s3-event-add-notif.png)
