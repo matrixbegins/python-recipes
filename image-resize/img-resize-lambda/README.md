@@ -15,13 +15,13 @@ Lambda downloads the Object received in the bucket. Then the image is opened and
 ![S3 Event Setings](/image-resize/img-resize-lambda/images/s3-event-create-2.png)
 
 - Click on Add notification
-![S3 event add notification](/image-resize/img-resize-lambda/images/s3-event-add-notif.png)
+![S3 event add notification](/image-resize/img-resize-lambda/images/s3-event-add-notif-2.png)
 
 - Enter name of the notification for your reference. Then choose `PUT` Events.
 - Leave prefixes and suffixes blank if you don't know what they do.
 - Under Option Send To, select lambda function
 - In last Dropdown select your lambda function (`test-function` in image)
-![S3 event add notification](/image-resize/img-resize-lambda/images/s3-event-add-notif-details.png)
+![S3 event add notification](/image-resize/img-resize-lambda/images/s3-event-add-notif-details-2.png)
 
 ### Running the script
 
