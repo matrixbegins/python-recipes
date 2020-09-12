@@ -5,7 +5,7 @@ An AWS lambda function to resize images as soon as they are uploaded on a S3 buc
 ### What's happening?:
 This is a source bucket and target bucket scenario. The application will upload the image on source bucket and a lambda will intercept this upload event. It'll download the Object, resize, optimize and save to target bucket.
 
-Lambda downloads the Object received in the bucket. Then the image is opened and converted to JPG. Lambda resizes the image in two sizes and uploads a JPG and WebP for the given file on the target bucket. **Please note the PNGs are also converted to JPGs and only JPGs are uploaded.**
+Lambda downloads the Object received in the event. Then the image is opened and converted to JPG. Lambda resizes the image in two sizes and uploads a JPG and WebP for the given file on the target bucket. **Please note the PNGs are also converted to JPGs and only JPGs are uploaded.**
 
 
 ### Attaching S3 bucket event to lambda

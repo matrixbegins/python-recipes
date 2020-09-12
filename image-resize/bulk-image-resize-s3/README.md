@@ -1,7 +1,7 @@
 # Bulk image optimization of images present in a S3 bucket
 
 ## Usecase: Where this can be used?
-Assume there is a S3 bucket which has only images on it. They are images in some format and are not optimized for size and we need to bring down the sizes of images so that images can be served for your websites. The script `bulk_img_conversion.py` will convert optimize your images. The following actions are taken:
+Assume there is a S3 bucket which has only images on it. They are images in some format and are not optimized for size and we need to bring down the sizes of images so that images can be served on websites. The script `bulk_img_conversion.py` will convert and optimize such images. The following actions are taken:
 - JPGs are optimized and uploaded as JPGs
 - PNGs are converted to JPGs first, then optimized, then converted to back to PNGs and uploaded.
 - For every image WebP format is also generated and uploaded.
